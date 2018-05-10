@@ -9,6 +9,8 @@ namespace Aula1005_POO {
         static void Main(string[] args) {
 
             Cliente c = new Cliente();
+            Cliente c2 = new Cliente("Jucicreia","123456");
+
             c.Nome = "Godofredo";
             string nomeCliente = c.Nome;
 
@@ -17,6 +19,8 @@ namespace Aula1005_POO {
 
             Console.WriteLine(c.Nome);
             Console.WriteLine(c.Cpf);
+
+            Console.ReadKey();
         }
     }
 }
