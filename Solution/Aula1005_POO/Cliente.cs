@@ -1,5 +1,9 @@
-﻿namespace Aula1005_POO {
+﻿using System;
+
+namespace Aula1005_POO {
     class Cliente : Pessoa{
+
+        public DateTime DataNasc { get; set; } 
 
         public Cliente() {
 

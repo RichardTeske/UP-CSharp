@@ -1,5 +1,5 @@
 ﻿namespace Aula1005_POO {
-    class Pessoa {
+    abstract class Pessoa {
 
         public string Nome { get; set; }
         public string Cpf { get; set; }
