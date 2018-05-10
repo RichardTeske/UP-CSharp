@@ -12,8 +12,11 @@ namespace Aula1005_POO {
             c.Nome = "Godofredo";
             string nomeCliente = c.Nome;
 
+            c.Cpf = "'1234567890";
+            string cpfCliente = c.Cpf;
 
-
+            Console.WriteLine(c.Nome);
+            Console.WriteLine(c.Cpf);
         }
     }
 }

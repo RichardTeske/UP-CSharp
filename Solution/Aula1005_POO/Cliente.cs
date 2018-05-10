@@ -1,27 +1,20 @@
 ﻿namespace Aula1005_POO {
     class Cliente {
 
-        private string nome;
-        private string cpf;
+        public string Nome { get; set; }
+        public string Cpf { get; set; }
 
-        public string Nome {
-            get {
-                return nome;
-            }
+        public Cliente() {
 
-            set {
-                nome = value;
-            }
+
+        }
+        
+
+        public Cliente(string nome, string cpf) {
+
+            this.Cpf = Cpf;
+            this.Nome = nome;
         }
 
-        public string Cpf {
-            get {
-                return cpf;
-            }
-
-            set {
-                cpf = value;
-            }
-        }
     }
 }
