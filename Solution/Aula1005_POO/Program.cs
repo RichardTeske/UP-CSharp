@@ -8,6 +8,10 @@ namespace Aula1005_POO {
     class Program {
         static void Main(string[] args) {
 
+            Cliente c = new Cliente();
+            c.Nome = "Godofredo";
+            string nomeCliente = c.Nome;
+
 
 
         }
